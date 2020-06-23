@@ -8,6 +8,7 @@ Simply run the following script:
 
 ```bash
 # init
+sudo apt update
 sudo apt install opam golang-go
 opam init
 opam install menhir minisat jbuilder re
