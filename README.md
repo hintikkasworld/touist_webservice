@@ -11,7 +11,7 @@ Simply run the following script:
 sudo apt update
 sudo apt install opam golang-go m4
 opam init
-opam install menhir minisat jbuilder re
+opam install menhir minisat jbuilder re cmdliner
 eval $(opam config env)
 export GOPATH=~/go 
 mkdir ~/go
